@@ -10,5 +10,5 @@ fun main(){
         "Pedro" to 2500.0,
         "Maria" to 3000.0
     )
-    map2.forEach { (k, v) ->  println("Chave: $k - Valor: $v")}
+    map2.forEach { (k, v) -> println("Chave: $k - Valor: $v")}
 }
