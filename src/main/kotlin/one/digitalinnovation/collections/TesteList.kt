@@ -21,6 +21,7 @@ fun main(){
     funcionarios
         .groupBy { it.tipoContrato }
         .forEach { println(it) }
+
 }
 
 data class Funcionario(
