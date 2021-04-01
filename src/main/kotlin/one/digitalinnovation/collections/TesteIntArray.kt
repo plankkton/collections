@@ -13,8 +13,8 @@ fun main(){
         println(valor)
     }
      println("------------------")                       //ambos produzem o mesmo resultado
-    values.forEach{
-        println(it)
+    values.forEach{ valor ->
+        println(valor)
     }
     println("------------------")
     for(index in values.indices)
